@@ -1,4 +1,4 @@
-# bingo https://travis-ci.com/UberSquid/bingo.svg?branch=master
+# bingo [![Build Status](https://travis-ci.com/UberSquid/bingo.svg?branch=master)](https://travis-ci.com/UberSquid/bingo)
 Este es un proyecto escolar y esta programado en python 
 Genera cartones validos de bingo pero no esta capacitado para generar una tira completa para 6 cartones
 Si bien genera cartones, no lo hace de la manera mas eficiente, ya que utilizamos un algoritmo de otro proyecto pero en php.
