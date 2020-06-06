@@ -1,9 +1,6 @@
 import random
 import math
 
-def carton():
-    mi_carton = Generar()
-    return mi_carton
 
 # Cuenta la cantidad de celdas ocupadas
 def contar_celdas_ocupadas(mi_carton):
