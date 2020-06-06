@@ -1,7 +1,7 @@
 from src import bingo
 
 mi_carton = [
-        [3,0,6,1040432,0,0,0,3,0],
+        [3,12,6,1040432,0,0,0,3,0],
         [0,0,0,0,0,0,0,0,0],
         [2,16,17,0,0,0,0,0,95]
     ]
@@ -31,4 +31,10 @@ def test_celdas_ocupadas_1_a_90():
 
 def test_mayores_a_la_derecha():
     assert bingo.mayores_a_la_derecha(mi_carton) == False 
+
+def test_rellenitos():
+    assert bingo.completos_segui2(mi_carton) == False
+
+def test_vacio_comotualma():
+    assert bingo.vacios_segui2(mi_carton) == False
  
